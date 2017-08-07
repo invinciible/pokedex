@@ -1,0 +1,6 @@
+framework module Pods_pokedox {
+  umbrella header "Pods-pokedox-umbrella.h"
+
+  export *
+  module * { export * }
+}
