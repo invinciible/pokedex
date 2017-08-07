@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6F2616631F3740DF0000F566 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2616621F3740DF0000F566 /* PokeCell.swift */; };
+		6F6B09D71F37A221001B1FF0 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6B09D61F37A221001B1FF0 /* csv.swift */; };
+		6F6B09DC1F37A2AE001B1FF0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F6B09DB1F37A2AE001B1FF0 /* music.mp3 */; };
+		6F6B09DE1F37A2DB001B1FF0 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F6B09DD1F37A2DB001B1FF0 /* Pokemon.ttf */; };
 		6F8531BA1F37067C00D792A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8531B91F37067C00D792A6 /* AppDelegate.swift */; };
 		6F8531BC1F37067C00D792A6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8531BB1F37067C00D792A6 /* MainVC.swift */; };
 		6F8531BF1F37067C00D792A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8531BD1F37067C00D792A6 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		6F2616621F3740DF0000F566 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		6F6B09D61F37A221001B1FF0 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		6F6B09DB1F37A2AE001B1FF0 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		6F6B09DD1F37A2DB001B1FF0 /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
 		6F8531B61F37067C00D792A6 /* pokedox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8531B91F37067C00D792A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F8531BB1F37067C00D792A6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -57,6 +63,23 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		6F6B09D81F37A226001B1FF0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6F6B09D61F37A221001B1FF0 /* csv.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		6F6B09D91F37A22B001B1FF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F6B09DD1F37A2DB001B1FF0 /* Pokemon.ttf */,
+				6F6B09DB1F37A2AE001B1FF0 /* music.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		6F8531AD1F37067C00D792A6 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +99,8 @@
 		6F8531B81F37067C00D792A6 /* pokedox */ = {
 			isa = PBXGroup;
 			children = (
+				6F6B09D91F37A22B001B1FF0 /* Resources */,
+				6F6B09D81F37A226001B1FF0 /* util */,
 				6F2616641F3743390000F566 /* Controller */,
 				6F2616611F3740B30000F566 /* view */,
 				6FD86CFC1F370969005D3A55 /* Model */,
@@ -130,6 +155,7 @@
 					6F8531B51F37067C00D792A6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = S43L4C4K8B;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,8 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6B09DC1F37A2AE001B1FF0 /* music.mp3 in Resources */,
 				6F8531C41F37067C00D792A6 /* LaunchScreen.storyboard in Resources */,
 				6F8531C11F37067C00D792A6 /* Assets.xcassets in Resources */,
+				6F6B09DE1F37A2DB001B1FF0 /* Pokemon.ttf in Resources */,
 				6F8531CC1F37089E00D792A6 /* pokemon.csv in Resources */,
 				6F8531BF1F37067C00D792A6 /* Main.storyboard in Resources */,
 			);
@@ -175,6 +203,7 @@
 				6F8531BC1F37067C00D792A6 /* MainVC.swift in Sources */,
 				6F8531BA1F37067C00D792A6 /* AppDelegate.swift in Sources */,
 				6FD86CFE1F37097C005D3A55 /* Pokemon.swift in Sources */,
+				6F6B09D71F37A221001B1FF0 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
